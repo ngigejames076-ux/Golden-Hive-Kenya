@@ -9,23 +9,25 @@
 
     <body>
         <h1>Our Products</h1>
+         <div style="border: 1px solid blue; text-align: center; font-weight: bold; padding: 1px; margin: 1px ; display: flex; flex-wrap: wrap; gap: 16px;"  class="Products" ></div>
         <div>
-            <p>Raw Honey 500g - ksh 500</p>
+            <p> <img src="Image/Honey.jpg" style="width: 400; height: 600;">  </img> <br>Raw Honey 500g - ksh 500</p>
             <button onclick="addToCart('Raw Honey 500g',500)">Add to cart</button>
         </div>
 
         <div>
-            <p>Beeswax Candle - ksh 300</p>
+            <p><img src="Image/Bees wax.jpg" style="width: 400; height: 600;">  </img> <br>Beeswax Candle - ksh 300</p>
             <button onclick="addToCart('Beeswax Candle',300)">Add to cart</button>
         </div>
 
         <div>
-            <p>Propolis Extract - ksh 700</p>
+            <p><img src="Image/propolis.jpg" style="width: 400; height: 300;"> </img>  <br>Propolis Extract - ksh 700</p>
             <button onclick="addToCart('Propolis Extract',700)">Add to cart</button>
         </div>
+    </div>
 
         <br><br>
-        <a href="cart.html">Go to cart</a> |
-        <a href="index.html">Home</a>
+       <nav class="nav-links"> <a href="cart.html">Go to cart</a> |
+        <a href="index.html">Home</a></nav>
     </body>
 </html>
